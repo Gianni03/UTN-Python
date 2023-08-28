@@ -24,6 +24,7 @@ print(cocinaLista)
 cocinaLista[0] = 'tenedor'
 cocina = tuple(cocinaLista)
 print(cocina)
-cocina = ('te', 'cu', 'ta')
-print(cocina)
+# la tupla es inmutable, pero se puede convertir a lista, modificar y volver a convertir a tupla
+# la tupla es mas rapida que la lista, por eso se usa mas la tupla  en python
+# se puede reasignar una tupla, pero no se puede modificar
 
